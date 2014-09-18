@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="format-detection" content="telephone=no">
+<title>David Ortega &amp; Co</title>
+<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="favicon.ico" >
+<link rel="image_src" href="proyectos/files/yo.jpg">
+
+
+
+<!-- jQuery (required) -->
+	<script src="proyectos/js/jquery-1.6.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+<script src="js/menu-collapsed.js" type="text/javascript"></script> <!-- expandir y colapsar menu con desliz -->
+<script type="text/javascript" src="proyectos/js/nomecopies.js"></script>
+	  
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26242427-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript">
+function muestra(elemento){
+$('li.proyecto.').addClass("oculta_proy");
+$(elemento).removeClass("oculta_proy");
+}
+</script>
+
+<script type="text/javascript">
+function elegidos(){
+$('li.proyecto.').addClass("oculta_proy");
+$('.eleg').removeClass("oculta_proy");
+}
+</script>
+
+<script type="text/javascript"> <!-- Onclick Change Link State To Bold -->
+function byId(id) {
+return document.getElementById ? document.getElementById(id) : document.all[id];
+}
+var prevLink = "";
+function changeActiveStates(ele) {
+if (prevLink) byId(prevLink).className = "";
+ele.className = 'activate';
+prevLink = ele.id;
+}
+</script>
+
+<script type="text/javascript">
+
+setTimeout ("changeActiveStates(document.getElementById('link1'))",1000);
+									 
+</script>
+
+<!-- DESVANECIDO -->      
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("body").css("display", "none");
+ 
+    $("body").fadeIn(1000);
+ 
+    $("a.transition").click(function(event){
+        event.preventDefault();
+        linkLocation = this.href;
+        $("body").fadeOut(1000, redirectPage);
+    });
+ 
+    function redirectPage() {
+        window.location = linkLocation;
+    }
+});
+</script>
+
+
+</head>
+
+<body onload="javascript:muestra('.sele');">
+
+<div id="wrapper">
+<div id="header">
+<div id="head"> 
+      <a href="mailto:david@davidortega.co"><img src="proyectos/files/logo.png" class="logo"><span><h2><strong>David Ortega & Co</strong><br/>Creative Designer<br/><br/>+34 630 991 990<br/>david@davidortega.co</h2></span></a>
+      
+      <div id="idioma">
+      <a href="proyectos/career.html">CV</a>
+      </div>
+</div>   
+        
+ 	    <h5 class="copyright">Copyright 2014.</br>All Rights Reserved.</br>Design &amp; Developed by</br>
+        David Ortega</h5></li>
+    </div>
+
+	<div id="rightcolumn">
+		       
+           <ul class="iconos">              		           
+                       
+           <li class="proyecto sele adve web"><a href="http://www.guzzo.es/start" target="_blank"><img src="proyectos/files/miniaturas/guzzo.jpg" alt="thinky" class="PreviewImagenes"><span>Naming + Identidad + Comunicación + Web<br/><strong>Start Guzzo</strong></span></a></li>
+           <li class="proyecto sele adve web"><a href="http://www.comopartirunlaus.com" target="_blank"><img src="proyectos/files/miniaturas/laus.jpg" alt="thinky" class="PreviewImagenes"><span>Campaña Integrada<br/><strong>Cómo partir un Laus</strong></span></a></li>
+           <li class="proyecto sele adve web"><a href="http://www.achos.es" target="_blank"><img src="proyectos/files/miniaturas/achos.jpg" alt="thinky" class="PreviewImagenes"><span>Founder<br/><strong>achos!</strong></span></a></li>
+           <li class="proyecto sele iden web"><a href="http://www.thinky.es" target="_blank"><img src="proyectos/files/miniaturas/thinky.jpg" alt="thinky" class="PreviewImagenes"><span>App + Realidad Aumentada<br/><strong>Thinky</strong></span></a></li>
+           <li class="proyecto sele iden web"><a href="proyectos/nissan.html"><img src="proyectos/files/miniaturas/nissan.jpg" alt="nissan" class="PreviewImagenes"><span>Identidad<br/><strong>D&AD / Nissan</strong></span></a></li>
+           <li class="proyecto sele adve edit"><a href="proyectos/fib.html"><img src="proyectos/files/miniaturas/fib.jpg" alt="FIB" class="PreviewImagenes"><span>App + Revista + Realidad Aumentada<br/><strong>FIB '13</strong></span></a></li>
+           <li class="proyecto sele iden"><a href="proyectos/360.html"><img src="proyectos/files/miniaturas/360.jpg" alt="360" class="PreviewImagenes"><span>Identidad<br/><strong>Bienal de escultura 360</strong><br/><br/><em class="">Premio Laus Plata '13</em></span></a></li>
+            <li class="proyecto sele tipo"><a href="proyectos/sagmeister.html"><img src="proyectos/files/miniaturas/sag.jpg" alt="Sagmeister" class="PreviewImagenes"><span>Tipografía<br/><strong>CV</strong></span></a></li>
+             <li class="proyecto sele typo"><a href="proyectos/iniesta.html"><img src="proyectos/files/miniaturas/iniesta.jpg" alt="Iniesta" class="PreviewImagenes"><span>Tipografía<br/><strong>Iniesta Kinetic</strong></span></a></li>
+            <li class="proyecto sele pack"><a href="proyectos/galletas.html"><img src="proyectos/files/miniaturas/galletas.jpg" alt="Galletas" class="PreviewImagenes"><span>Packaging<br/><strong>Galletas LU</strong></a></li>
+              <li class="proyecto sele typo"><a href="proyectos/frutiger.html"><img src="proyectos/files/miniaturas/frutiger.jpg" alt="Frutiger" class="PreviewImagenes"><span>Tipografía<br/><strong>Espécimen Frutiger</strong></a></li>
+           
+           <li class="proyecto sele iden typo"><a href="proyectos/circo.html"><img src="proyectos/files/miniaturas/circo.jpg" alt="Circo" class="PreviewImagenes"><span>Identidad + Tipografía<br/><strong>Bread & Circus Museum</strong></a></li>
+ 
+           <li class="proyecto sele pack"><a href="proyectos/preservativos.html"><img src="proyectos/files/miniaturas/durex.jpg" alt="Durex" class="PreviewImagenes"><span>Packaging<br/><strong>Durex</strong></a></li> 
+                              
+           
+           </ul>  
+           		                           
+ 	</div></div>
+
+</body>
+
+</html>
